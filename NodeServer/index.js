@@ -109,6 +109,11 @@ app.get('/tallerplane', (req, res) => {
   res.sendFile(path.join(__dirname, '/public/tallerplane.html'))
 })
 
+
+app.get('/tallerEq-A', (req, res) => {
+  res.sendFile(path.join(__dirname, '/public/tallerEq-A.html'))
+})
+
 app.listen(port, () => {
   console.log(`Example application listening at http://localhost:${port}`)
 })
