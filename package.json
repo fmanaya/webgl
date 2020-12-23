@@ -1,0 +1,23 @@
+{
+  "name": "webgl",
+  "version": "1.0.0",
+  "description": "Curso y practicas WebGL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmanaya/webgl.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fmanaya/webgl/issues"
+  },
+  "homepage": "https://github.com/fmanaya/webgl#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}
